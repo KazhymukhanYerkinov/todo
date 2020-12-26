@@ -29,10 +29,14 @@
         &-row {
             display: flex;
             align-items: center;
+            margin-bottom: 15px;
             
 
-            p {
+            input {
+                width: 100%;
+                border: 0;
                 margin-left: 15px;
+                font-size: 16px;
             }
         }
     }
