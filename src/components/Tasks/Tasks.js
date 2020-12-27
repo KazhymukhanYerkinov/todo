@@ -8,7 +8,7 @@ import AddTaskForm from './AddTaskForm';
 import Task from './Task';
 
 
-const Tasks = ({ list, onEditTitle, onAddTask, withoutEmpty, onEditTask, onRemoveTask }) => {
+const Tasks = ({ list, onEditTitle, onAddTask, withoutEmpty, onEditTask, onRemoveTask, onCompleteTask }) => {
 
     const editTitle = () => {
         const newTitle = window.prompt('Название списка', list.name);
@@ -37,7 +37,13 @@ const Tasks = ({ list, onEditTitle, onAddTask, withoutEmpty, onEditTask, onRemov
                 {   list.tasks &&   
                     list.tasks.map(task => {
                         return (
-                            <Task key = { task.id } {...task} list = { list } onEdit = { onEditTask } onRemove = { onRemoveTask }/>
+                            <Task 
+                                key = { task.id } 
+                                {...task} 
+                                list = { list } 
+                                onEdit = { onEditTask } 
+                                onRemove = { onRemoveTask }
+                                onComplete = { onCompleteTask }/>
                         )})
                 }
                 

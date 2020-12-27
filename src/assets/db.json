@@ -100,8 +100,8 @@
     },
     {
       "listId": 7,
-      "text": "sda",
-      "completed": false,
+      "text": "Hello",
+      "completed": true,
       "id": 19
     }
   ],
