@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/todo/static/css/main.ee46be71.chunk.css",
+    "main.js": "/todo/static/js/main.f9e72b24.chunk.js",
+    "main.js.map": "/todo/static/js/main.f9e72b24.chunk.js.map",
+    "runtime-main.js": "/todo/static/js/runtime-main.17ec5958.js",
+    "runtime-main.js.map": "/todo/static/js/runtime-main.17ec5958.js.map",
+    "static/js/2.dff854e1.chunk.js": "/todo/static/js/2.dff854e1.chunk.js",
+    "static/js/2.dff854e1.chunk.js.map": "/todo/static/js/2.dff854e1.chunk.js.map",
+    "index.html": "/todo/index.html",
+    "static/css/main.ee46be71.chunk.css.map": "/todo/static/css/main.ee46be71.chunk.css.map",
+    "static/js/2.dff854e1.chunk.js.LICENSE.txt": "/todo/static/js/2.dff854e1.chunk.js.LICENSE.txt",
+    "static/media/add.c4fa83e1.svg": "/todo/static/media/add.c4fa83e1.svg",
+    "static/media/close.b83c2023.svg": "/todo/static/media/close.b83c2023.svg",
+    "static/media/edit.1bda04de.svg": "/todo/static/media/edit.1bda04de.svg",
+    "static/media/list.2b422bc7.svg": "/todo/static/media/list.2b422bc7.svg",
+    "static/media/remove.f5660af3.svg": "/todo/static/media/remove.f5660af3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17ec5958.js",
+    "static/js/2.dff854e1.chunk.js",
+    "static/css/main.ee46be71.chunk.css",
+    "static/js/main.f9e72b24.chunk.js"
+  ]
+}
